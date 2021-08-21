@@ -1,0 +1,17 @@
+@import "styles/variables.scss";
+
+.contacts-section.section {
+    position: relative;
+    height: 200px;
+    background: $dark;
+    color: $light;
+    padding-top: 200px;
+
+    .contacts-container.container {
+        .main-footer {
+            text-align: center;
+            color: $light;
+            position: relative; 
+        }
+    }
+}

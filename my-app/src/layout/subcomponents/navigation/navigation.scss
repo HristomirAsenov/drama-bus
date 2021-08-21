@@ -1,0 +1,42 @@
+@import "styles/variables.scss";
+@import "styles/variables.scss";
+
+.navigation-section {
+    position: relative;
+    height: 200px;
+    background: $dark;
+    color: $light;
+
+    .main-navbar {
+       display: flex;
+       justify-content: space-between;
+
+       .navbar-brand {
+        padding: 5px;
+        font-weight: bold;
+        color: $light;
+        font-size: 32px;
+       }
+
+       .navbar-list {
+           display: flex;
+           gap: 20px;
+           list-style-type: none;
+           margin: 0;
+
+           .navbar-list-item {
+               border-bottom: 2px solid transparent;
+               padding: 5px;
+               font-weight: bold;
+
+               &:hover{ 
+                text-decoration: underline $blue-accent;
+               }
+
+              a {
+                color: $light; 
+              }
+           }
+       }
+    }
+}

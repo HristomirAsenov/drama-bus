@@ -1,0 +1,30 @@
+@import "styles/variables.scss";
+
+.top-divider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+
+    svg {
+        position: relative;
+        display: block;
+        width: calc(300% + 1.3px);
+        height: 129px;
+        transform: rotateY(180deg);
+    }
+    
+    .shape-fill {
+
+        &.dark-fill {
+            fill: $dark;
+        }
+
+        &.light-fill {
+            fill: $light;
+        }
+    }
+}
+

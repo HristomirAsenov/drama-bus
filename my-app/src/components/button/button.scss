@@ -1,0 +1,14 @@
+.button {
+    background: $dark;
+    color: $light;
+    border-radius: 5px;
+    padding: 15px;
+    border: 2px solid $dark;
+    transition: all 0.5s;
+
+    &:hover {
+        background-color: $light;
+        color: $dark;
+        cursor: pointer;
+    }
+}
