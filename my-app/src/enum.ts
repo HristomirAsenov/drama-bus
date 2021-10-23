@@ -8,7 +8,7 @@ export enum NavigationHref {
     about_us = "za-nas",
     excursions = "organizacii-na-ekskurzii",
     cargo = "prevozvane-na-tovari",
-    partners = "nashite-partniori",
+    customers = "nashi-klienti",
     contacts = "kontakti-i-zapitvaniq"
 }
 
@@ -17,6 +17,6 @@ export enum SectionName {
     about_us = "about-us",
     excursions_service = "excursions-service",
     cargo_service = "cargo-service",
-    our_partners = "our-partners",
+    our_customers = "our-customers",
     contacts = "contacts"
 }

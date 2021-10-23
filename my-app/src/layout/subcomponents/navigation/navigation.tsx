@@ -9,7 +9,8 @@ const Navigation: FC = () => {
     return <SectionContainer name={SectionName.navigation}>
         <nav className="main-navbar">
             <a href="/#za-nas" className="navbar-brand">
-                ДРАМА-БУС
+                "ДРАМА-БУС"
+                <p>Транспортни и спедиторски услуги</p>
             </a>
             <ul className="navbar-list">
                 <li className="navbar-list-item">
@@ -24,7 +25,7 @@ const Navigation: FC = () => {
 
             <ul className="navbar-list">
                 <li className="navbar-list-item">
-                <a href={`/#${NavigationHref.partners}`}>Партнъори</a>
+                <a href={`/#${NavigationHref.customers}`}>Клиенти</a>
                 </li>
                 
                 <li className="navbar-list-item">

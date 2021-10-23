@@ -1,5 +1,43 @@
+@import "styles/variables.scss";
+
 .about-us-section.section {
     .about-us-container.container {
-       
+       h3{
+           font-size: 32px;
+       }
+
+       .about-us {
+           display: flex;
+
+           .about-us-text, .about-us-pictures {
+               width: 100%;
+           }
+
+           .about-us-text {
+               font-size: 20px;
+               padding: 20px 0;
+               text-justify: newspaper;
+
+               p {
+                   margin-bottom: 10px;
+               }
+
+               ul {
+                   list-style-position: inside;
+                   padding-left: 15px;
+               }
+           }
+
+           .about-us-pictures {
+
+                img {
+                    display: block;
+                    width: 100%;
+                    box-shadow: 0px 0px 15px 1px rgba(30, 50, 90, 0.55);
+                    border-radius: 5px;
+                }
+            }
+
+       }
     }
 }

@@ -7,6 +7,7 @@ import SectionContainer from "components/section-container";
 import TopDivider from "components/divider/top-divider";
 
 import "./excursions-service.scss";
+import BottomDivider from "components/divider/bottom-divider";
 
 const ExcursionsService: FC<{
     sectionRef: SectionRefProp
@@ -16,6 +17,9 @@ const ExcursionsService: FC<{
     <SectionContainer name={SectionName.excursions_service} sectionRef={sectionRef} >
         <TopDivider color={DividerColor.light} />
         <h3> Организации на екскурзии</h3>
+        <div className="excursions">
+            <h1>Lorem ipsum...</h1>
+        </div>
     </SectionContainer>
 );
 

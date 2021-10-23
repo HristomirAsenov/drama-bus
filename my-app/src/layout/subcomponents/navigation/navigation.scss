@@ -1,9 +1,7 @@
 @import "styles/variables.scss";
-@import "styles/variables.scss";
 
 .navigation-section {
     position: relative;
-    height: 200px;
     background: $dark;
     color: $light;
 
@@ -16,6 +14,11 @@
         font-weight: bold;
         color: $light;
         font-size: 32px;
+
+        p {
+            font-size: 16px;
+            font-style: italic;
+        }
        }
 
        .navbar-list {
@@ -25,12 +28,11 @@
            margin: 0;
 
            .navbar-list-item {
-               border-bottom: 2px solid transparent;
-               padding: 5px;
+               border-top: 2px solid transparent;
                font-weight: bold;
 
                &:hover{ 
-                text-decoration: underline $blue-accent;
+                    border-top: 2px solid $light;
                }
 
               a {

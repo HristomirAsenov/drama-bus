@@ -4,5 +4,16 @@
     position: relative;
     background: $dark;
     color: $light;
-    padding: 200px 0;
+    padding: 100px 0;
+
+    .excursions-service-container.container {
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            text-align: right;
+            font-size: 32px;
+        }
+
+    }
 }

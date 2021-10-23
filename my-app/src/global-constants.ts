@@ -5,7 +5,7 @@ export const NavHrefToSectionNameMap = {
      [SectionName.about_us] : NavigationHref.about_us,
      [SectionName.excursions_service] : NavigationHref.excursions,
      [SectionName.cargo_service] : NavigationHref.cargo,
-     [SectionName.our_partners] : NavigationHref.partners,
+     [SectionName.our_customers] : NavigationHref.customers,
      [SectionName.contacts] : NavigationHref.contacts,
      [SectionName.navigation] : NavigationHref.navigation,
 };

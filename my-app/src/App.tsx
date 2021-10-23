@@ -11,7 +11,7 @@ import Layout from 'layout';
 import AboutUs from 'sections/about-us';
 import ExcursionsService from 'sections/excursions-service';
 import CargoService from 'sections/cargo-service';
-import OurPartners from 'sections/our-partners';
+import OurCustomers from 'sections/our-customers';
 
 import "./App.scss";
 
@@ -39,7 +39,7 @@ const App: FC = () => {
             <AboutUs sectionRef={sectionsRefs} />
             <ExcursionsService sectionRef={sectionsRefs} />
             <CargoService sectionRef={sectionsRefs} />
-            <OurPartners sectionRef={sectionsRefs} />
+            <OurCustomers sectionRef={sectionsRefs} />
         </Layout>
     );
 }
