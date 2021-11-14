@@ -34,7 +34,7 @@ const Footer: FC<{
                     <p>v_dramaliev@abv.bg</p>
                 </li>
             </ul>
-            <p>Всички права запазени от "ДРАМА-БУС" ЕООД</p>
+            <p>&copy; "ДРАМА-БУС" ЕООД. Всички права запазени {new Date().getFullYear()}</p>
         </footer>
       </SectionContainer>
 };

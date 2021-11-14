@@ -7,7 +7,6 @@ import SectionContainer from "components/section-container";
 import TopDivider from "components/divider/top-divider";
 
 import "./excursions-service.scss";
-import BottomDivider from "components/divider/bottom-divider";
 
 const ExcursionsService: FC<{
     sectionRef: SectionRefProp

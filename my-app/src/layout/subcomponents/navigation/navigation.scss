@@ -31,14 +31,23 @@
                border-top: 2px solid transparent;
                font-weight: bold;
 
-               &:hover{ 
-                    border-top: 2px solid $light;
-               }
 
               a {
-                color: $light; 
+                color: $light;
+                font-size: 24px;
+                height: 100%;
+                display: block;
               }
+
+              &:hover{ 
+                border-top: 2px solid $light;
            }
+
+           }
+
+           @media (max-width: 1024px) {
+                flex-direction: column;
+            }
        }
     }
 }

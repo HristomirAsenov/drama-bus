@@ -2,6 +2,8 @@
 
 .about-us-section.section {
     .about-us-container.container {
+
+    
        h3{
            font-size: 32px;
        }
@@ -9,26 +11,35 @@
        .about-us {
            display: flex;
 
-           .about-us-text, .about-us-pictures {
-               width: 100%;
-           }
-
            .about-us-text {
+            width: 100%;
+
                font-size: 20px;
                padding: 20px 0;
                text-justify: newspaper;
 
                p {
                    margin-bottom: 10px;
+
+                   .bold {
+                       font-weight: bold;
+                   }
                }
 
-               ul {
+               ul.our-services-list  {
                    list-style-position: inside;
-                   padding-left: 15px;
+                   list-style-type: none;
+
+                   li {
+                       display: flex;
+                       align-items: center;
+                       gap: 15px;
+                   }
                }
            }
 
            .about-us-pictures {
+                width: 100%;
 
                 img {
                     display: block;
@@ -38,6 +49,18 @@
                 }
             }
 
+            @media (max-width: 1024px) {
+                display: block;
+
+                .about-us-pictures {
+                    width: 75%;
+                    margin: 0 auto;
+                }
+
+                .about-us-text {
+                    margin: 0 auto;
+                }
+            }
        }
     }
 }
