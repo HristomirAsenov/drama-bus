@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/drama-bus/static/css/main.06bdefde.chunk.css",
+    "main.js": "/drama-bus/static/js/main.734a497f.chunk.js",
+    "main.js.map": "/drama-bus/static/js/main.734a497f.chunk.js.map",
+    "runtime-main.js": "/drama-bus/static/js/runtime-main.851f263a.js",
+    "runtime-main.js.map": "/drama-bus/static/js/runtime-main.851f263a.js.map",
+    "static/js/2.c870ab19.chunk.js": "/drama-bus/static/js/2.c870ab19.chunk.js",
+    "static/js/2.c870ab19.chunk.js.map": "/drama-bus/static/js/2.c870ab19.chunk.js.map",
+    "static/js/3.cd063cb8.chunk.js": "/drama-bus/static/js/3.cd063cb8.chunk.js",
+    "static/js/3.cd063cb8.chunk.js.map": "/drama-bus/static/js/3.cd063cb8.chunk.js.map",
+    "index.html": "/drama-bus/index.html",
+    "static/css/main.06bdefde.chunk.css.map": "/drama-bus/static/css/main.06bdefde.chunk.css.map",
+    "static/js/2.c870ab19.chunk.js.LICENSE.txt": "/drama-bus/static/js/2.c870ab19.chunk.js.LICENSE.txt",
+    "static/media/arexim_logo.dc9b5c22.png": "/drama-bus/static/media/arexim_logo.dc9b5c22.png",
+    "static/media/ariete_logo.76fd0aa9.png": "/drama-bus/static/media/ariete_logo.76fd0aa9.png",
+    "static/media/black_daf_truck.cd6ed417.jpg": "/drama-bus/static/media/black_daf_truck.cd6ed417.jpg",
+    "static/media/hronovsky_logo.ea11004f.jpg": "/drama-bus/static/media/hronovsky_logo.ea11004f.jpg",
+    "static/media/kostal_logo.4566875c.png": "/drama-bus/static/media/kostal_logo.4566875c.png",
+    "static/media/mercedes_truck_1.5033e25f.png": "/drama-bus/static/media/mercedes_truck_1.5033e25f.png",
+    "static/media/mercedes_truck_2.1926b24c.png": "/drama-bus/static/media/mercedes_truck_2.1926b24c.png",
+    "static/media/mk.c79133fd.png": "/drama-bus/static/media/mk.c79133fd.png",
+    "static/media/rs.80d9b854.png": "/drama-bus/static/media/rs.80d9b854.png",
+    "static/media/smolyan_logo.7248c4af.jpg": "/drama-bus/static/media/smolyan_logo.7248c4af.jpg",
+    "static/media/tr.3b7620d9.png": "/drama-bus/static/media/tr.3b7620d9.png",
+    "static/media/trip-picture-1.f7f8c98f.jpg": "/drama-bus/static/media/trip-picture-1.f7f8c98f.jpg",
+    "static/media/trip-picture-2.2be5c6cc.jpg": "/drama-bus/static/media/trip-picture-2.2be5c6cc.jpg",
+    "static/media/trip-picture-3.656cba9f.jpg": "/drama-bus/static/media/trip-picture-3.656cba9f.jpg",
+    "static/media/trip-picture-4.6e26d12a.jpg": "/drama-bus/static/media/trip-picture-4.6e26d12a.jpg",
+    "static/media/trip-picture-5.53652e1a.jpg": "/drama-bus/static/media/trip-picture-5.53652e1a.jpg",
+    "static/media/velko_demir_bus.09f1a930.png": "/drama-bus/static/media/velko_demir_bus.09f1a930.png",
+    "static/media/white_daf_truck.81502bcb.jpg": "/drama-bus/static/media/white_daf_truck.81502bcb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.851f263a.js",
+    "static/js/2.c870ab19.chunk.js",
+    "static/css/main.06bdefde.chunk.css",
+    "static/js/main.734a497f.chunk.js"
+  ]
+}
