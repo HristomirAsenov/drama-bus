@@ -6,7 +6,7 @@ export enum DividerColor {
 export enum NavigationHref {
     navigation = "navigation",
     about_us = "za-nas",
-    excursions = "organizacii-na-ekskurzii",
+    excursions = "ekskurzii",
     cargo = "prevozvane-na-tovari",
     customers = "nashi-klienti",
     contacts = "kontakti-i-zapitvaniq"

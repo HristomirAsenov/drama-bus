@@ -15,16 +15,16 @@ const ExcursionsService: FC<{
 }> = ({
     sectionRef
 }) => (
-    <SectionContainer name={SectionName.excursions_service} sectionRef={sectionRef} >
-        <TopDivider color={DividerColor.light} />
-        <h3>Организации на екскурзии</h3>
-        <p className="trip-quote">И най-дългото пътуване започва с една малка стъпка, нека я направим заедно!</p>
-        <CountryList />
+        <SectionContainer name={SectionName.excursions_service} sectionRef={sectionRef} >
+            <TopDivider color={DividerColor.light} />
+            <h3>Екскурзии</h3>
+            <p className="trip-quote">Нищо не лекува така душата, както пътуването!</p>
+            <CountryList />
 
-        <div className="excursions">
-            <TripImagList />
-        </div>
-    </SectionContainer>
-);
+            <div className="excursions">
+                <TripImagList />
+            </div>
+        </SectionContainer>
+    );
 
 export default ExcursionsService;

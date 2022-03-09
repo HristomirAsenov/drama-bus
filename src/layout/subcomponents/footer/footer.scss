@@ -30,6 +30,15 @@
                 li {
                     list-style-type: none;
                     margin: 55px 0;
+
+                    .external-link {
+                        display: block;
+                        color: $light;
+
+                        &:hover {
+                            font-weight: bold;
+                        }
+                    }
                 }
             }
         }

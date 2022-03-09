@@ -15,21 +15,21 @@ const Navigation: FC = () => {
             <ul className="navbar-list">
                 <li className="navbar-list-item">
 
-                    <a href={`/#${NavigationHref.excursions}`}>Организации на екскурзии</a>
+                    <a href={`/#${NavigationHref.excursions}`}>Eкскурзии</a>
                 </li>
-                
+
                 <li className="navbar-list-item">
-                <a href={`/#${NavigationHref.cargo}`}>Превозване на товари</a>
+                    <a href={`/#${NavigationHref.cargo}`}>Превозване на товари</a>
                 </li>
             </ul>
 
             <ul className="navbar-list">
                 <li className="navbar-list-item">
-                <a href={`/#${NavigationHref.customers}`}>Клиенти</a>
+                    <a href={`/#${NavigationHref.customers}`}>Клиенти</a>
                 </li>
-                
+
                 <li className="navbar-list-item">
-                <a href={`/#${NavigationHref.contacts}`}>Контакти</a>
+                    <a href={`/#${NavigationHref.contacts}`}>Контакти</a>
                 </li>
             </ul>
         </nav>
