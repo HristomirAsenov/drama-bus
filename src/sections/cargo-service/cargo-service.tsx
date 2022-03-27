@@ -19,33 +19,34 @@ const CargoService: FC<{
 }> = ({
     sectionRef
 }) => (
-    <SectionContainer name={SectionName.cargo_service} sectionRef={sectionRef} >
-        <h3>Превозване на товари</h3>
-       
-        <div className="cargo-services">
-        <ul className="truck-types-list">
-            <li className="truck-type-list-item">
-                <FaTruck className="truck-image" />      
-                <p>Мега камиони</p>
-            </li>
-            <li className="truck-type-list-item">
-                <FaTruck className="truck-image" />      
-                <p>Соло камиони</p>
-            </li>
-            <li className="truck-type-list-item">
-                <FaTruck className="truck-image" />      
-                <p>Хенгер камиони</p>
-            </li>
-        </ul>
-            <div className="trucks-list">
-               <img alt="Бял Даф Камион"  src={whiteDaf}/>
-               <img alt="Черен Даф Камион" src={blackDaf}/>
-               <img alt="Мерцедес" src={mercedesTruckOne}/>
-               <img alt="Мерцедес" src={mercedesTruckTwo}/>
+        <SectionContainer name={SectionName.cargo_service} sectionRef={sectionRef} >
+            <h3>Превозване на товари</h3>
+
+            <div className="cargo-services">
+                <ul className="truck-types-list">
+                    <li className="truck-type-list-item">
+                        <FaTruck className="truck-image" />
+                        <p>Мега камиони</p>
+                    </li>
+                    <li className="truck-type-list-item">
+                        <FaTruck className="truck-image" />
+                        <p>Соло камиони</p>
+                    </li>
+                    <li className="truck-type-list-item">
+                        <FaTruck className="truck-image" />
+                        <p>Хенгер камиони</p>
+                    </li>
+                </ul>
+                <div className="trucks-list">
+                    <img alt="Бял Даф Камион" src={whiteDaf} />
+                    <img alt="Черен Даф Камион" src={blackDaf} />
+                    <img alt="Мерцедес" src={mercedesTruckOne} />
+                    <img alt="Мерцедес" src={mercedesTruckTwo} />
+                </div>
             </div>
-        </div>
-        <BottomDivider color={DividerColor.light} />
-    </SectionContainer>
-);
+            <BottomDivider color={DividerColor.dark} />
+
+        </SectionContainer>
+    );
 
 export default CargoService;

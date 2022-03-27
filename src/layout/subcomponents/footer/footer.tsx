@@ -9,7 +9,6 @@ import TopDivider from "components/divider/top-divider";
 import { FaSearchLocation, FaPhone, FaMailBulk, FaFacebook } from 'react-icons/fa';
 
 import "./footer.scss";
-import { NavLink } from "react-router-dom";
 
 const Footer: FC<{
     sectionRef: SectionRefProp,
@@ -17,7 +16,7 @@ const Footer: FC<{
     sectionRef
 }) => {
         return <SectionContainer name={SectionName.contacts} sectionRef={sectionRef}>
-            <TopDivider color={DividerColor.light} />
+            <TopDivider color={DividerColor.dark} />
             <footer className="main-footer">
                 <h3>Контакти</h3>
                 <ul className="contacts">

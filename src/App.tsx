@@ -9,14 +9,14 @@ import { initialSectionRefState } from 'global-constants';
 
 import Layout from 'layout';
 import AboutUs from 'sections/about-us';
-import ExcursionsService from 'sections/excursions-service';
+import Excursions from 'sections/excursions';
 import CargoService from 'sections/cargo-service';
 import OurCustomers from 'sections/our-customers';
 
 import "./App.scss";
 
 const App: FC = () => {
-    const {location: { hash }} = useHistory();
+    const { location: { hash } } = useHistory();
 
     const initialState = useMemo(() => initialSectionRefState, []);
 
@@ -26,7 +26,7 @@ const App: FC = () => {
         const sectionName = hash.slice(1) as NavigationHref;
         const section = sectionsRefs.current[sectionName];
 
-        if(!section) {
+        if (!section) {
             return;
         }
 
@@ -37,7 +37,8 @@ const App: FC = () => {
     return (
         <Layout sectionRef={sectionsRefs}>
             <AboutUs sectionRef={sectionsRefs} />
-            <ExcursionsService sectionRef={sectionsRefs} />
+
+            <Excursions sectionRef={sectionsRefs} />
             <CargoService sectionRef={sectionsRefs} />
             <OurCustomers sectionRef={sectionsRefs} />
         </Layout>

@@ -1,6 +1,9 @@
 @import "styles/variables.scss";
 
 .our-customers-section.section {
+    background: $dark;
+    color: $light;
+    
     .our-customers-container.container {
        h3 {
            font-size: 32px;

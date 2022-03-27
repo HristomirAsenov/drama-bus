@@ -1,0 +1,16 @@
+@import "styles/variables.scss";
+
+.additional-info {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    ul {
+        list-style-position: inside;
+
+        ul {
+            padding-left: 30px;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@import "styles/variables.scss";
+
+.excursions-section.section {
+    position: relative;
+    background: $dark;
+    color: $light;
+    padding: 100px 0;
+
+    .excursions-container.container {
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            text-align: right;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            text-align: left;
+            font-size: 26px;
+        }
+
+        .trip-quote {
+            font-size: 24px;
+        }
+
+        .excursions-gallery {
+            display: flex; 
+        }
+
+    }
+}

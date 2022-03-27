@@ -14,17 +14,18 @@ const OurCustomers: FC<{
 }> = ({
     sectionRef
 }) => (
-    <SectionContainer name={SectionName.our_customers} sectionRef={sectionRef}>
-        <h3>Наши Клиенти</h3>
-        <ul className="our-clients-list">
-           {
-               customers.map((customer) => <CustomerCard
-                    key={`customer-card-${customer.name}`}
-                    customer={customer}
-               />)
-           }
-        </ul>
-    </SectionContainer>
-);
+        <SectionContainer name={SectionName.our_customers} sectionRef={sectionRef}>
+
+            <h3>Наши Клиенти</h3>
+            <ul className="our-clients-list">
+                {
+                    customers.map((customer) => <CustomerCard
+                        key={`customer-card-${customer.name}`}
+                        customer={customer}
+                    />)
+                }
+            </ul>
+        </SectionContainer>
+    );
 
 export default OurCustomers;

@@ -3,14 +3,14 @@
 .contacts-section.section {
     position: relative;
     min-height: 200px;
-    background: $dark;
-    color: $light;
+    background: $light;
+    color: $dark;
     padding-top: 100px;
 
     .contacts-container.container {
         .main-footer {
             text-align: center;
-            color: $light;
+            color: $dark;
             position: relative;
 
             h3 {
@@ -21,6 +21,7 @@
             ul.contacts {
                 display: flex;
                 justify-content: space-between;
+                font-weight: bold;
 
                 .contact-icon {
                     width: 60px;
@@ -33,10 +34,10 @@
 
                     .external-link {
                         display: block;
-                        color: $light;
+                        color: $dark;
 
                         &:hover {
-                            font-weight: bold;
+                            text-decoration: underline;
                         }
                     }
                 }

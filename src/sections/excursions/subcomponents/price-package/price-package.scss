@@ -1,0 +1,37 @@
+@import "styles/variables.scss";
+
+.price-package {
+    font-size: 20px;
+    margin-bottom: 20px;
+
+    .price-heading {
+        text-align: center;
+    }
+
+    .prices-container {
+        text-align: center;
+        background-color: $light;
+        color: $dark;
+        font-weight: bold;
+        padding: 30px 0px;
+    }
+
+    .included-and-excluded-container {
+        border: 1px solid $light;
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        
+        .included-container {
+            ul {
+                list-style-position: inside;
+            }
+        }
+
+        .excluded-container {
+            ul {
+                list-style-position: inside;
+            }
+        }
+    }
+}

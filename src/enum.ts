@@ -15,7 +15,7 @@ export enum NavigationHref {
 export enum SectionName {
     navigation = "navigation",
     about_us = "about-us",
-    excursions_service = "excursions-service",
+    excursions_service = "excursions",
     cargo_service = "cargo-service",
     our_customers = "our-customers",
     contacts = "contacts"
