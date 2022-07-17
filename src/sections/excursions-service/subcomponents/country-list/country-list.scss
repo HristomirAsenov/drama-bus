@@ -2,15 +2,16 @@
 
     margin-top: 45px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+
 
     .country-list-item {
         display: flex;
         gap: 5px;
         align-items: center;
         margin-bottom: 15px;
-        
+
         .country-img-container {
             max-width: 50px;
             width: 100%;

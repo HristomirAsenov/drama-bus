@@ -3,20 +3,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 50px;
+
+
+    @media (max-width: 1024px) {
+        justify-content: space-around;
+    }
 
     .trip-image {
-        transition: all 0.3s ease-in-out;
         border-radius: 5px;
-        
-        &.first-row {
-            margin: 30px 0;
-        }
-        
-        &:hover {
-            cursor: pointer;
-            -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 0%, 100% 80%, 80% 100%, 0% 100%, 0% 86%, 0% 20%);
-            clip-path: polygon(20% 0%, 80% 0%, 100% 0%, 100% 80%, 80% 100%, 0% 100%, 0% 86%, 0% 20%);
-            transform: scale(1.05); // 105% of original size
+
+        @media (max-width: 1024px) {
+            max-width: 500px;
+            width: 100%;
         }
     }
 }

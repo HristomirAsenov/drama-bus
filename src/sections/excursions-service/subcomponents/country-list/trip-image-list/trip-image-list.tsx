@@ -9,11 +9,11 @@ import tripFiveSrc from "assets/trips/trip-picture-5.jpg"
 import "./trip-image-list.scss";
 
 const TripImagList: FC = () => <div className="trip-image-list">
-    <img alt="снимка от пътуване" src={tripOneSrc} className="trip-image first-row"/>
-    <img alt="снимка от пътуване" src={tripThreeSrc} className="trip-image first-row"/>
-    <img alt="снимка от пътуване" src={tripFiveSrc} className="trip-image first-row"/>
-    <img alt="снимка от пътуване" src={tripTwoSrc} className="trip-image second-row"/>
-    <img alt="снимка от пътуване" src={tripFourSrc} className="trip-image second-row"/>
+    <img alt="снимка от пътуване" src={tripOneSrc} className="trip-image first-row" />
+    <img alt="снимка от пътуване" src={tripThreeSrc} className="trip-image first-row" />
+    <img alt="снимка от пътуване" src={tripFiveSrc} className="trip-image first-row" />
+    <img alt="снимка от пътуване" src={tripFourSrc} className="trip-image second-row" />
+    <img alt="снимка от пътуване" src={tripTwoSrc} className="trip-image second-row wide" />
 </div>;
 
 export default TripImagList;

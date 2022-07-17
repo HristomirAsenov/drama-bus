@@ -21,6 +21,7 @@
             ul.contacts {
                 display: flex;
                 justify-content: space-between;
+                flex-wrap: wrap;
 
                 .contact-icon {
                     width: 60px;

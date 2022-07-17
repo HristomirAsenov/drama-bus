@@ -16,6 +16,8 @@ const Footer: FC<{
 }> = ({
     sectionRef
 }) => {
+        const currentYear = new Date().getFullYear();
+
         return <SectionContainer name={SectionName.contacts} sectionRef={sectionRef}>
             <TopDivider color={DividerColor.light} />
             <footer className="main-footer">
@@ -46,7 +48,7 @@ const Footer: FC<{
                         <p>v_dramaliev@abv.bg</p>
                     </li>
                 </ul>
-                <p>&copy; "ДРАМА-БУС" ЕООД. Всички права запазени {new Date().getFullYear()}</p>
+                <p>&copy; "ДРАМА-БУС" ЕООД. Всички права запазени {currentYear}</p>
             </footer>
         </SectionContainer>
     };

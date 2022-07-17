@@ -16,7 +16,7 @@ import OurCustomers from 'sections/our-customers';
 import "./App.scss";
 
 const App: FC = () => {
-    const {location: { hash }} = useHistory();
+    const { location: { hash } } = useHistory();
 
     const initialState = useMemo(() => initialSectionRefState, []);
 
@@ -26,12 +26,13 @@ const App: FC = () => {
         const sectionName = hash.slice(1) as NavigationHref;
         const section = sectionsRefs.current[sectionName];
 
-        if(!section) {
+        if (!section) {
             return;
         }
 
-        section.scrollIntoView();
+        console.log(section);
 
+        section.scrollIntoView();
     }, [hash]);
 
     return (
