@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/drama-bus/static/css/main.732f7c3d.chunk.css",
-    "main.js": "/drama-bus/static/js/main.d62f8e4b.chunk.js",
-    "main.js.map": "/drama-bus/static/js/main.d62f8e4b.chunk.js.map",
+    "main.css": "/drama-bus/static/css/main.c0a5af19.chunk.css",
+    "main.js": "/drama-bus/static/js/main.05f116f2.chunk.js",
+    "main.js.map": "/drama-bus/static/js/main.05f116f2.chunk.js.map",
     "runtime-main.js": "/drama-bus/static/js/runtime-main.851f263a.js",
     "runtime-main.js.map": "/drama-bus/static/js/runtime-main.851f263a.js.map",
     "static/js/2.d893c4f8.chunk.js": "/drama-bus/static/js/2.d893c4f8.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.cd063cb8.chunk.js": "/drama-bus/static/js/3.cd063cb8.chunk.js",
     "static/js/3.cd063cb8.chunk.js.map": "/drama-bus/static/js/3.cd063cb8.chunk.js.map",
     "index.html": "/drama-bus/index.html",
-    "static/css/main.732f7c3d.chunk.css.map": "/drama-bus/static/css/main.732f7c3d.chunk.css.map",
+    "static/css/main.c0a5af19.chunk.css.map": "/drama-bus/static/css/main.c0a5af19.chunk.css.map",
     "static/js/2.d893c4f8.chunk.js.LICENSE.txt": "/drama-bus/static/js/2.d893c4f8.chunk.js.LICENSE.txt",
     "static/media/arexim_logo.dc9b5c22.png": "/drama-bus/static/media/arexim_logo.dc9b5c22.png",
     "static/media/ariete_logo.76fd0aa9.png": "/drama-bus/static/media/ariete_logo.76fd0aa9.png",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.851f263a.js",
     "static/js/2.d893c4f8.chunk.js",
-    "static/css/main.732f7c3d.chunk.css",
-    "static/js/main.d62f8e4b.chunk.js"
+    "static/css/main.c0a5af19.chunk.css",
+    "static/js/main.05f116f2.chunk.js"
   ]
 }
